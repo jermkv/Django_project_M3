@@ -17,5 +17,11 @@ python manage.py loaddata products/fixtures/categories.json
 python manage.py loaddata products/fixtures/products.json
 Это добавит тестовые данные (категории и продукты).
 
-6. Выйдите из контейнера
+Выйдите из контейнера
 exit (чтобы выйти из bash в контейнере).
+
+Для входа на админ-панель необходимо создаь учетную запись superuser:
+python manage.py createsuperuser
+
+Если аккаунт уже создан, перейдите по адресу http://127.0.0.1:8000/admin/ и введите логин и пароль вашего superuser.
+
