@@ -50,6 +50,7 @@ INSTALLED_APPS += [
     'reviews',
     'users',
     'api',
+    'rangefilter',
 ]
 
 MIDDLEWARE = [
